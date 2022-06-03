@@ -17,6 +17,7 @@ body{
 }
 p{
     text-align: justify;
+    font-size: 15px;
     margin: 15px 30px;
 }
 /*mise en page header avec logo*/
