@@ -173,10 +173,9 @@ footer img{
 @media only screen and (min-width: 650px){
     body{
         background-color: beige;
-        font-size: 25px;
     }
     a{
-        font-size: 25px;
+        font-size: 18px;
     }
     #logo{
         width: 7%;
@@ -236,7 +235,7 @@ footer img{
         justify-content:flex-start;
     }
     h4{
-        font-size: 35px;
+        font-size: 25px;
         text-align: left;
         display: flex;
         margin: 15px;
@@ -245,6 +244,9 @@ footer img{
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    #logodice, #dice{
+        margin: 25px;
     }
     #reseaux img{
         width: 50px;
