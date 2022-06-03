@@ -87,7 +87,7 @@ button{
     margin: 40px 0px 20px 0px; 
 }
 #best{
-    background-image: url(/Landing\ page\ development/Pictures/dice-jdr-22.jpg);
+    background-image: url(/dice-jdr-22.jpg);
     background-size: cover;
     height: 400px;
     border: 0px solid;
@@ -99,7 +99,7 @@ button{
     text-align: right;
 }
 #avernus{
-    background-image: url(/Landing\ page\ development/Pictures/avernus.jpg);
+    background-image: url(/avernus.jpg);
     background-size: cover;
     height: 400px;
     border: 0px solid;
