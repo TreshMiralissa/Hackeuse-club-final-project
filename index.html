@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RolePlay</title>
+    <link rel="icon" href="/Landing page development/flaticon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/Landing page development/style.css">
+<!--Police-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo"src="/Landing page development/Pictures/logo.png" alt="Logo">
+        <a id="menu" href="#blog">Blog</a><!--ramène à la dernière section-->
+    </header>
+<!--définition jdr-->
+    <section id="intro">
+        <img src="/Landing page development/Pictures/rpg.png" alt="RPG">
+        <div id="kezako"><h1>Kezako</h1>
+        <p>Le jeu de rôle est une activité où une personne interprète un personnage réel ou imaginaire dans un environnement fictif. Il se joue généralement en groupe sous la supervision d'un "maître du jeu" (MJ) qui canalise la motiviation des participants et veille au bon déroulement de l'histoire.</p></div>
+    </section>
+<!-- différence jdr et gn-->
+    <section id="types">
+        <div id="gn"><img src="/Landing page development/Pictures/dice-jdr.png" alt="JDR">
+        <img src="/Landing page development/Pictures/gn.png" alt="gn"></div>
+        <div id="difference"><h2>JDR ou GN ?</h2>
+        <p>Par "JDR", on entend généralement "jeu de rôle sur table". Il s'agit dans ce cas d'un jeu de société où les participants, réunis autour d'une table, conçoivent ensemble une histoire en respectant les règles prescrites du jeu.<br>Le "GN" ou "jeu de rôle grandeur nature" est un dérivé du "JDR" où les participants incarnent physiquement leur personnage et interagissent avec un univers fictif aux moyens d'actions physiques, le tout sous la surveillance d'organisateurs qui veillent au respect des règles.</p></div>
+    </section>
+<!-- présentation 3jdr avec lien bouton-->
+    <section id="games"> 
+        <div id="dungeons">
+            <img src="/Landing page development/Pictures/dnd.png" alt="D&D">
+            <h3>Dungeons & Dragons</h3>
+            <p>C'est l'un des tous premiers jeux de rôle sur table du genre médiéval-fantastique publié dans les années 70. L'univers du jeu s'inspire des grands auteurs américains de fantasy comme Robert E. Howard ou H. P. Lovecraft. </p>
+            <button><a href= 'https://dnd.wizards.com/fr'; target="_blank">Site officiel</a></button>
+        </div>
+        <div id="cthulhu">
+            <img src="/Landing page development/Pictures/cthulhu.png" alt="Cthulhu">
+            <h3>Call of Cthulhu</h3>
+            <p>Ce jeu de rôle publié à partir de 1981, tire son nom et son univers de l'oeuvre de H. P. Lovecraft. Dans une ambiance mystérieuse et oppressante, les joueurs sont confrontés à des situations où ils doivent déjouer les complots des Grands Anciens et de leurs adorateurs.</p>
+            <button><a href= 'https://www.chaosium.com/'; target="_blank">Site officiel</a></button>
+        </div>
+        <div id="madness">
+            <img src="/Landing page development/Pictures/madness.png" alt="Madness">
+            <h3>Mansions of Madness</h3>
+            <p>Il s'agit d'un jeu d'énigmes plus récent (1ère édition 2011) . Les joueurs explorent un lieu à l'ambience lovecraftienne, rempli d'horreur afin de résoudre un mystère.</p>
+            <button><a href= 'https://www.fantasyflightgames.com/en/index/'; target="_blank">Site officiel</a></button>
+        </div>
+    </section>
+<!--Blog lien factice pour articles-->
+    <section id="blog"> 
+        <a href="https://www.example.com/">
+            <div id="best">
+                <h4>Les 10 meilleurs JDR de 2022</h4>
+            </div>
+        </a>
+        <a href="https://www.example.com/">
+            <div id="avernus">
+                <h4>Que penser de Baldur's Gate: Descent into Avernus ?</h4>
+            </div>
+        </a>
+    </section>
+
+    <footer>
+        <div id="logodice">
+            <img src="/Landing page development/Pictures/logo.png"alt="Logo">
+<!--générateur lancé de dé20-->            
+            <div id="dice">
+                <form name="doc">
+                <fieldset style="text-align:center;"><legend> Rôle initiative </legend>
+                    <input type="button" value="Lancer" onclick="ini()"><br />
+                    <input type="button" name="de1" value="" /><br />
+                    <input type="button" value="Reset" onclick="restart()" />
+                </fieldset></form>
+            </div>
+        </div>
+<!--ouverture boîte de dialogue pour copyright-->
+        <a href="#" onclick="copyright()">Copyright - 2022</a>
+            <div id="copyright">
+                <div>
+                    <p>Pour les icônes: https://www.flaticon.com/fr/. Merci à Freepik et Hight quality icons <br><br>Pour les images: https://pixabay.com/fr/ et https://dnd.wizards.com/fr</p>
+                    <a href="#" onclick="copyright()">X</a>
+                </div>
+            </div>
+<!-- lien image vers réseaux sociaux -->
+        <div id="reseaux"><a href="https://www.facebook.com/">
+            <img src="/Landing page development/Pictures/facebook.png">
+        </a>
+        <a href="https://www.instagram.com/">
+            <img src="/Landing page development/Pictures/instagram.png">
+        </a>
+        <a href="https://www.linkedin.com/in/jade-muratet-4685ba239/">
+            <img src="/Landing page development/Pictures/linkedin.png">
+        </a>
+        <a href="https://www.pinterest.fr/">
+            <img src="/Landing page development/Pictures/pinterest.png">
+        </a>
+        </div>
+    </footer>
+    <script src="/Landing page development/script.js"></script>
+</body>
+</html>
